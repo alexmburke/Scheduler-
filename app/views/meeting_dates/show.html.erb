@@ -1,0 +1,17 @@
+<body>
+	<table>
+	  <thead>
+	    <tr>
+	      <th width="200">Dates</th>
+	      <th width="150">Book</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td><%= @meeting_date.date %></td>
+	      <td><%= @meeting_date.book %></td>
+	    </tr>
+	  </tbody>
+	</table>
+	<%= link_to "See All", meeting_dates_path, :class => "button" %>
+</body> 

@@ -1,0 +1,16 @@
+<h1>Pick a date</h1>
+
+<table>
+    <thead>
+        <th>Date</th>
+        <th>Book</th>
+    </thead>
+    <tbody>
+     <% @meeting_dates.each do |meeting| %>
+      <tr>
+        <td><%= meeting.date %></td>
+        <td><%= meeting.book %></td>
+      </tr>
+     <% end %>
+    </tbody>
+</table>

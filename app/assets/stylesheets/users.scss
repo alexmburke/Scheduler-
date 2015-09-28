@@ -1,0 +1,36 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-image: image-url("upfeathers.png");
+}
+
+.somethingelse {
+	margin-right: 50px;
+	margin_left: 50px;
+}
+
+h1 {
+	margin-left: 50px;
+	font-family: "Roboto Slab"
+}
+
+table {
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.button {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.userlist {
+	margin-left: 50px;
+	margin-right: 70%;
+	#special {
+		margin-left: 0px;
+	}	
+}
+
